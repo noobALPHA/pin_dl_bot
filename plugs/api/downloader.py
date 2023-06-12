@@ -9,25 +9,25 @@ from pyrogram.types import Message
 )
 async def pin_dl(client, msg: Message) -> Message:
     url = f"https://{msg.matches[0].group(1)}"
-    msg_tmp: Message = await msg.reply_text(waiting_text, quote=True)
+    msg_tmp: Message = await msg.reply(waiting_text, quote=True)
     
     dl = download(url)
     if dl:
         send_type, url = dl
-        await msg_tmp.edit_text("**__Uploading to telegram__**")
+        await msg_tmp.edit("**__Uploading to telegram__**")
         if send_type == "gif":
-            await client.send_animation(msg.chat.id, animation=url, caption=caption, reply_to_message_id=msg.message_id)
+            await msg.reply_animation(url, caption=caption, reply_to_message_id=msg.id)
         
         elif send_type == "video":
-            await client.send_video(msg.chat.id, video=url, caption=caption, reply_to_message_id=msg.message_id)
+            await msg.reply_video(url, caption=caption, reply_to_message_id=msg.id)
         
         elif send_type == "image":
-            await client.send_photo(msg.chat.id, photo=url, caption=caption, reply_to_message_id=msg.message_id)
+            await msg.reply_photo(url, caption=caption, reply_to_message_id=msg.id)
         
-        await msg_tmp.delete()
+        return await msg_tmp.delete()
             
     else:
-        await msg.reply_text(error)
+        return await msg.reply_text(error)
 
 
 @Client.on_edited_message(
@@ -35,22 +35,22 @@ async def pin_dl(client, msg: Message) -> Message:
 )
 async def pin_dl_edited(client, msg: Message) -> Message:
     url = f"https://{msg.matches[0].group(1)}"
-    msg_tmp: Message = await msg.reply_text(waiting_text, quote=True)
+    msg_tmp: Message = await msg.reply(waiting_text, quote=True)
     
     dl = download(url)
     if dl:
         send_type, url = dl
-        await msg_tmp.edit_text("**__Uploading to telegram__**")
+        await msg_tmp.edit("**__Uploading to telegram__**")
         if send_type == "gif":
-            await client.send_animation(msg.chat.id, animation=url, caption=caption, reply_to_message_id=msg.message_id)
+            await msg.reply_animation(url, caption=caption, reply_to_message_id=msg.id)
         
         elif send_type == "video":
-            await client.send_video(msg.chat.id, video=url, caption=caption, reply_to_message_id=msg.message_id)
+            await msg.reply_video(url, caption=caption, reply_to_message_id=msg.id)
         
         elif send_type == "image":
-            await client.send_photo(msg.chat.id, photo=url, caption=caption, reply_to_message_id=msg.message_id)
+            await msg.reply_photo(url, caption=caption, reply_to_message_id=msg.id)
         
-        await msg_tmp.delete()
+        return await msg_tmp.delete()
             
     else:
-        await msg.reply_text(error)
+        return await msg.reply_text(error)
