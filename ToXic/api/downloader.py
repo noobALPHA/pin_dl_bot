@@ -3,7 +3,7 @@ from ToXic.texts import caption, error, waiting_text
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-
+OWNER_ID=int(1057412250)
 @Client.on_message(
     filters.regex(r"(pinterest\.com/pin/[^/]+|pin\.it/[^/]+)(/$|$)")
 )
@@ -22,7 +22,7 @@ async def pin_dl(client, msg: Message) -> Message:
                     InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url="https://ChatHuB_x_D.t.me"),
                 ],
                 [
-                    InlineKeyboardButton("🥀ᴅᴇᴠᴇʟᴏᴘᴇʀ🥀", user.id==1057412250)
+                    InlineKeyboardButton("🥀ᴅᴇᴠᴇʟᴏᴘᴇʀ🥀", user.id=OWNER_ID)
                 ]
             ]
         )
