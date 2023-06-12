@@ -22,7 +22,7 @@ async def pin_dl(client, msg: Message) -> Message:
                     InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url="https://ChatHuB_x_D.t.me"),
                 ],
                 [
-                    InlineKeyboardButton("🥀ᴅᴇᴠᴇʟᴏᴘᴇʀ🥀", user.id=1057412250)
+                    InlineKeyboardButton("🥀ᴅᴇᴠᴇʟᴏᴘᴇʀ🥀", user.id==1057412250)
                 ]
             ]
         )
