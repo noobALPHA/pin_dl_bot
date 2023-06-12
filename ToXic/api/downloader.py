@@ -1,5 +1,5 @@
-from plugs.pin import download
-from plugs.texts import caption, error, waiting_text
+from ToXic.pin import download
+from ToXic.texts import caption, error, waiting_text
 from pyrogram import Client, filters
 from pyrogram.types import Message
 

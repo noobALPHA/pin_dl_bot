@@ -1,4 +1,4 @@
-from plugs.texts import start_text
+from ToXic.texts import start_text
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
