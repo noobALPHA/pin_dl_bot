@@ -23,10 +23,10 @@ start_text = f"""
 """
 
 help_text = """
-ʜɪ, ɪ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ɢɪғs, ᴠɪᴅᴇᴏs ᴀɴᴅ ɪᴍᴀɢᴇs ғʀᴏᴍ pinterest.com
-ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀ ᴠᴀʟɪᴅ ᴘɪɴᴛᴇʀᴇsᴛ ʟɪɴᴋ ᴛᴏ ᴘʀᴏᴄᴇss!
+➻ ʜɪ, ɪ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ɢɪғs, ᴠɪᴅᴇᴏs ᴀɴᴅ ɪᴍᴀɢᴇs ғʀᴏᴍ pinterest.com
+➻ ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀ ᴠᴀʟɪᴅ ᴘɪɴᴛᴇʀᴇsᴛ ʟɪɴᴋ ᴛᴏ ᴘʀᴏᴄᴇss!
 
-Note: i can't download pin groups like https://www.pinterest.com/pin/813392382698556185/
+๏ **Note: i can't download pin groups like** https://www.pinterest.com/pin/813392382698556185/
 """
 
 waiting_text = "`ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ʙᴀʙʏ...!!`\n\n**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀᴛʟᴇᴀsᴛ 15 sᴇᴄᴏɴᴅs ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴏᴜᴛᴘᴜᴛ.**"
