@@ -7,10 +7,9 @@ caption = f"""
 """
 
 error = """
-**
 ᴅᴏᴡɴʟᴏᴀᴅ ғᴀɪʟᴇᴅ.
+
 ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜ sᴇɴᴅ ᴍᴇ ᴀ ᴠᴀʟɪᴅ ᴘɪɴᴛᴇʀᴇsᴛ ᴜʀʟ.
-**
 """
 
 start_text = f"""
@@ -24,9 +23,10 @@ start_text = f"""
 """
 
 help_text = """
-**ʜɪ, ɪ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ɢɪғs, ᴠɪᴅᴇᴏs ᴀɴᴅ ɪᴍᴀɢᴇs ғʀᴏᴍ** www.pinterest.com
-**ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀ ᴠᴀʟɪᴅ ᴘɪɴᴛᴇʀᴇsᴛ ʟɪɴᴋ ᴛᴏ ᴘʀᴏᴄᴇss!**
-**Note: i can't download pin groups like__** https://www.pinterest.com/pin/813392382698556185/
+ʜɪ, ɪ ᴄᴀɴ ᴅᴏᴡɴʟᴏᴀᴅ ɢɪғs, ᴠɪᴅᴇᴏs ᴀɴᴅ ɪᴍᴀɢᴇs ғʀᴏᴍ pinterest.com
+ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀ ᴠᴀʟɪᴅ ᴘɪɴᴛᴇʀᴇsᴛ ʟɪɴᴋ ᴛᴏ ᴘʀᴏᴄᴇss!
+
+Note: i can't download pin groups like https://www.pinterest.com/pin/813392382698556185/
 """
 
-waiting_text = "*`ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ʙᴀʙʏ...!!`\n\n**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀᴛʟᴇᴀsᴛ 15 sᴇᴄᴏɴᴅs ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴏᴜᴛᴘᴜᴛ.**"
+waiting_text = "`ᴘʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ʙᴀʙʏ...!!`\n\n**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀᴛʟᴇᴀsᴛ 15 sᴇᴄᴏɴᴅs ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴏᴜᴛᴘᴜᴛ.**"

@@ -1,7 +1,7 @@
 from ToXic.pin import download
 from ToXic.texts import caption, error, waiting_text
 from pyrogram import Client, filters
-from pyrogram.types import Message
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @Client.on_message(
